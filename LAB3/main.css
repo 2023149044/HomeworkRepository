@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    max-width: 1020px;
+    width: 100%;
+}
+
+.header-title {
+    align-self: flex-end;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: slideHeader;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideHeader {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.nav-link-now {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+main {
+    max-width: 1020px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 300px;
+}
+
+.movie-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    position: relative;
+}
+
+.movie-item img {
+    width: 90px;
+    height: 110px;
+    transition: transform 2s;
+}
+
+.movie-item:hover img {
+    transform: scale(1.5);
+}
+
+.movie-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: none;
+}
+
+.movie-item:hover .movie-name {
+    display: block;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 480px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .movies {
+        flex-direction: column;
+    }
+    .movie-container {
+        flex: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .movies {
+        flex-wrap: wrap;
+    }
+    .movie-container {
+        flex: 1 1 45%;
+    }
+}
