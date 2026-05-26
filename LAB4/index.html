@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta lang = "ko">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>영화 정보 사이트</title>
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+</head>
+<body>
+    <header class = "site-header">
+        <h1 class = "header-title">영화 정보 사이트입니다.</h1>
+        <nav class = "nav-bar">
+            <a href = "index.html" class = "nav-link-now">메인페이지</a>
+            <a href = "login.html" class = "nav-link">로그인</a>
+            <a href = "signup.html" class = "nav-link">회원가입</a>
+        </nav>
+    </header>
+    <main>
+        <div class = "main-content">
+            <div class = "search-bar">
+                <input type = "text" id = "search-input" placeholder = "키워드를 입력하세요.">
+                <button type = "button" id = "filter-btn">Filter results</button>
+            </div>
+
+            <h2 class = "main-title">Movies</h2>
+
+            <div class = "movies">
+                <aside class = "sort-panel">
+                    <h3>정렬 기준</h3>
+                    <label><input type = "radio" name = "sort" value = "rating-down"> 평점 내림차순</label>
+                    <label><input type = "radio" name = "sort" value = "rating-up"> 평점 오름차순</label>
+                    <label><input type = "radio" name = "sort" value = "date-down"> 개봉 내림차순</label>
+                    <label><input type = "radio" name = "sort" value = "date-up"> 개봉 오름차순</label>
+                </aside>
+
+                <div id = "movie-list" class = "movie-list"></div>
+            </div>
+            <div class = "about">
+                <h2>About</h2>
+                <p>여기는 매우 주관적인 영화 정보 사이트입니다.</p>
+                <p>여기는 매우 주관적인 영화 정보 사이트입니다.</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let movies = [];
+        let viewlist = [];
+        let c = 0;
+        let step = 6;
+
+        fetch('product.json')
+            .then(function (res) {
+                return res.json();
+            })
+            .then(function (data) {
+                movies = data;
+                viewlist = movies;
+                showmovies();
+            });
+
+        function showmovies() {
+            let list = document.getElementById('movie-list');
+            let next = viewlist.slice(c, c + step);
+
+            for (let i = 0; i < next.length; i++) {
+                let m = next[i];
+                let card = document.createElement('div');
+                card.className = 'movie-card';
+                card.innerHTML =
+                    '<div class="poster-area">' +
+                        '<img src="' + m.poster + '" alt="' + m.title + '">' +
+                        '<div class="overview">줄거리: ' + m.overview + '</div>' +
+                    '</div>' +
+                    '<p class="title">' + m.title + '</p>' +
+                    '<p class="date">' + m.release_date + '</p>' +
+                    '<p class="rating">★ ' + m.vote_average + '/10</p>';
+                list.appendChild(card);
+            }
+            c += next.length;
+        }
+
+        function resetmovies() {
+            document.getElementById('movie-list').innerHTML = '';
+            c = 0;
+            showmovies();
+        }
+
+        window.addEventListener('scroll', function () {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                if (c < viewlist.length) {
+                    showmovies();
+                }
+            }
+        });
+
+        document.getElementById('filter-btn').addEventListener('click', function () {
+            let keyword = document.getElementById('search-input').value.toLowerCase();
+            viewlist = movies.filter(function (m) {
+                return m.title.toLowerCase().includes(keyword);
+            });
+            resetmovies();
+        });
+
+        let radios = document.getElementsByName('sort');
+        for (let i = 0; i < radios.length; i++) {
+            radios[i].addEventListener('change', function () {
+                if (this.value === 'rating-down') {
+                    viewlist.sort(function (a, b) { return b.vote_average - a.vote_average; });
+                } else if (this.value === 'rating-up') {
+                    viewlist.sort(function (a, b) { return a.vote_average - b.vote_average; });
+                } else if (this.value === 'date-down') {
+                    viewlist.sort(function (a, b) { return new Date(b.release_date) - new Date(a.release_date); });
+                } else if (this.value === 'date-up') {
+                    viewlist.sort(function (a, b) { return new Date(a.release_date) - new Date(b.release_date); });
+                }
+                resetmovies();
+            });
+        }
+    </script>
+</body>
+</html>

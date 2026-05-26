@@ -1,0 +1,170 @@
+[
+  {
+    "title": "The Avengers",
+    "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+    "release_date": "2012-04-25",
+    "vote_average": 7.4,
+    "poster": "images/avengers.jpg"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "overview": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+    "release_date": "2015-04-22",
+    "vote_average": 7.3,
+    "poster": "images/avengers_ultron.jpg"
+  },
+  {
+    "title": "Iron Man",
+    "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "release_date": "2008-04-30",
+    "vote_average": 7.4,
+    "poster": "images/ironman.jpg"
+  },
+  {
+    "title": "Captain America: Civil War",
+    "overview": "Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers, causing two factions to side with Iron Man or Captain America, which causes an epic battle between former allies.",
+    "release_date": "2016-04-27",
+    "vote_average": 7.1,
+    "poster": "images/cap_civilwar.jpg"
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "overview": "After the cataclysmic events in New York with The Avengers, Steve Rogers, aka Captain America is living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy—the Winter Soldier.",
+    "release_date": "2014-03-20",
+    "vote_average": 7.6,
+    "poster": "images/cap_wintersoldier.jpg"
+  },
+  {
+    "title": "Thor",
+    "overview": "Against his father Odin's will, The Mighty Thor - a powerful but arrogant warrior god - recklessly reignites an ancient war. Thor is cast down to Earth and forced to live among humans as punishment. Once here, Thor learns what it takes to be a true hero when the most dangerous villain of his world sends the darkest forces of Asgard to invade Earth.",
+    "release_date": "2011-04-21",
+    "vote_average": 6.6,
+    "poster": "images/thor.jpg"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+    "release_date": "2014-07-30",
+    "vote_average": 7.9,
+    "poster": "images/guardians.jpg"
+  },
+  {
+    "title": "Doctor Strange",
+    "overview": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under his wing and trains him to defend the world against evil.",
+    "release_date": "2016-10-25",
+    "vote_average": 7.1,
+    "poster": "images/doctorstrange.jpg"
+  },
+  {
+    "title": "Ant-Man",
+    "overview": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
+    "release_date": "2015-07-14",
+    "vote_average": 7.0,
+    "poster": "images/antman.jpg"
+  },
+  {
+    "title": "Deadpool",
+    "overview": "Deadpool tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+    "release_date": "2016-02-09",
+    "vote_average": 7.4,
+    "poster": "images/deadpool.jpg"
+  },
+  {
+    "title": "Spider-Man",
+    "overview": "After being bitten by a genetically altered spider, nerdy high school student Peter Parker is endowed with amazing powers.",
+    "release_date": "2002-05-01",
+    "vote_average": 6.8,
+    "poster": "images/spiderman.jpg"
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "overview": "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods as they join forces with their younger selves in an epic battle that must change the past – to save our future.",
+    "release_date": "2014-05-15",
+    "vote_average": 7.5,
+    "poster": "images/xmen_dofp.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "release_date": "2001-12-18",
+    "vote_average": 8.0,
+    "poster": "images/lotr1.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "overview": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+    "release_date": "2002-12-18",
+    "vote_average": 8.0,
+    "poster": "images/lotr2.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam bring the ring closer to the heart of Mordor, the dark lord's realm.",
+    "release_date": "2003-12-01",
+    "vote_average": 8.1,
+    "poster": "images/lotr3.jpg"
+  },
+  {
+    "title": "The Hobbit: An Unexpected Journey",
+    "overview": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves who seek to reclaim their mountain home from Smaug, the dragon.",
+    "release_date": "2012-11-26",
+    "vote_average": 7.0,
+    "poster": "images/hobbit1.jpg"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
+    "release_date": "2001-11-16",
+    "vote_average": 7.5,
+    "poster": "images/hp1.jpg"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "overview": "Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black – and turns to sympathetic Professor Lupin for help.",
+    "release_date": "2004-05-31",
+    "vote_average": 7.7,
+    "poster": "images/hp3.jpg"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+    "release_date": "2011-07-07",
+    "vote_average": 7.9,
+    "poster": "images/hp8.jpg"
+  },
+  {
+    "title": "Fantastic Beasts and Where to Find Them",
+    "overview": "In 1926, Newt Scamander arrives at the Magical Congress of the United States of America with a magically expanded briefcase, which houses a number of dangerous creatures and their habitats. When the creatures escape from the briefcase, it sends the American wizarding authorities after Newt, and threatens to strain even further the state of magical and non-magical relations.",
+    "release_date": "2016-11-16",
+    "vote_average": 7.2,
+    "poster": "images/fantasticbeasts.jpg"
+  },
+  {
+    "title": "Avatar",
+    "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+    "release_date": "2009-12-10",
+    "vote_average": 7.2,
+    "poster": "images/avatar.jpg"
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "overview": "Jack Sparrow, a freewheeling 17th-century pirate who roams the Caribbean Sea, butts heads with a rival pirate bent on pillaging the village of Port Royal. When the governor's daughter is kidnapped, Sparrow decides to help the girl's love save her. But their seafaring mission is hardly simple.",
+    "release_date": "2003-07-09",
+    "vote_average": 7.5,
+    "poster": "images/pirates1.jpg"
+  },
+  {
+    "title": "Star Wars: The Force Awakens",
+    "overview": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.",
+    "release_date": "2015-12-15",
+    "vote_average": 7.5,
+    "poster": "images/starwars_tfa.jpg"
+  },
+  {
+    "title": "Beauty and the Beast",
+    "overview": "A live-action adaptation of Disney's version of the classic 'Beauty and the Beast' tale of a cursed prince and a beautiful young woman who helps him break the spell.",
+    "release_date": "2017-03-16",
+    "vote_average": 6.8,
+    "poster": "images/beauty_beast.jpg"
+  }
+]
